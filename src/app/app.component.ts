@@ -17,10 +17,13 @@ export class AppComponent implements OnInit{
   }
   title = 'fahpo2';
   add() {
-    this.todoService.addTodo(this.newTodo).subscribe(todo => {
-      this.todos.push(todo);
+    this.newTodo.id=this.todos.length+1;
+    this.todos.push(this.newTodo);
       this.newTodo = { id: 0, title: '', description: '', completed: false };
-    });
+    // this.todoService.addTodo(this.newTodo).subscribe(todo => {
+    //   this.todos.push(this);
+
+    // });
   }
 
 
