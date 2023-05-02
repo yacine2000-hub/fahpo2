@@ -1,5 +1,4 @@
 [
-
     {
     "id": 1,
     "title": "Faire les courses",
@@ -30,7 +29,7 @@
     "description": "Aller faire une balade en vélo dans le parc",
     "completed": false
     },
-    
+
     {
     "id": 6,
     "title": "Nettoyer la maison",
@@ -54,4 +53,5 @@
     "title": "Préparer un gâteau",
     "description": "Faire un gâteau au chocolat pour l'anniversaire de Tom",
     "completed": false
-    }]
+    }
+]
